@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -59,11 +60,6 @@
     border-radius: 3px;
 }
 
-.search-icon{
-    height: 40px;
-    width: 45px;
-   
-}
 
 .search-input {
     height: 38px;
@@ -75,4 +71,34 @@
     background-color: rgb(176, 171, 171);
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+
+.search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #0f1111;
+   
+}
+
+/** box4 **/
+
+
+
+span{
+    font-size: 0.85rem;
+}
+
+.signin-second {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** box6 **/
+
+.nav-cart {
+    display: flex;
 }
