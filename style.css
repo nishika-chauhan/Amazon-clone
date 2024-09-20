@@ -175,11 +175,14 @@ span{
 
 .box{
    
-    height: 400px;
+    height: 350px;
     width: 24%;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 20px 0px 15px;
+    margin-bottom: 5px;
    
 
 }
@@ -193,15 +196,46 @@ span{
 
 }
 
-.box-img p{
-    justify-content:flex-end;
-    text-align: center; 
-    
-    margin: 0;
-}
 
 .box a{
-    color: #007185;
+    color:#007185;
+    font-size: 0.8rem;
 }
 
+.heading{
+    display: flex;
+    text-align: center;
+}
 
+/** hero-section2 **/
+.hero-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+.img{
+    height: 290px;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+/** footer**/
+
+.b2t{
+    height: 50px;
+    color: white;
+    background-color: rgb(65, 83, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+
+.controls{
+    height: 480px;
+    background-color: rgb(48, 53, 70);
+}
