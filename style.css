@@ -236,8 +236,8 @@ span{
 }
 
 .controls{
-    height: 480px;
-    background-color: rgb(39, 44, 57);
+    height: 330px;
+    background-color: rgb(45, 45, 52);
     display: flex;
     justify-content: space-evenly;
     color: white;
@@ -253,10 +253,36 @@ ul a{
 
 .controls p{
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.controls2{
+    height: 68px;
+    background-color: #0f1111;
+    display: flex;
+    border-top: 0.2px solid white;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .parts{
-    height: 375px;
+    height: 80px;
     background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+.options{
+    
+    text-align: center;
+
+}
+
+.options a{
+    padding-left: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
 }
